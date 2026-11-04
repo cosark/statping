@@ -155,6 +155,11 @@ aws ec2 run-instances \
     --security-group-ids sg-7e8b830f
 ```
 
+## One-Click Deploy
+
+<a href="https://repocloud.io/details/Statping-ng/"><img src="https://d16t0pc4846x52.cloudfront.net/deploylobe.svg" alt="Deploy on RepoCloud" height="32"></a>
+<a href="https://www.heroku.com/deploy?template=https://github.com/statping/statping"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku" height="32"></a>
+
 ## Contributing
 Statping accepts Push Requests to the `dev` branch! Feel free to add your own features and notifiers. You probably want to checkout the [Notifier Wiki](https://github.com/statping/statping/wiki/Notifiers) to get a better understanding on how to create your own notification methods for failing/successful services. Testing on Statping will test each function on MySQL, Postgres, and SQLite. I recommend running MySQL and Postgres Docker containers for testing. You can find multiple docker-compose files in the dev directory. 
 
